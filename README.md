@@ -6,14 +6,14 @@
   <br>
   ## Table of Contents
 
-  [Description](#description)
-  [Installation](#installation)
-  [useCase](#useCase)
-  [Features](#features)
-  [Contributions](#contributions)
-  [Licenses](#licenses)
-  [Testing](#testing)
-  [email](#email)
+  -[Description](#description)
+  -[Installation](#installation)
+  -[useCase](#useCase)
+  -[Features](#features)
+  -[Contributions](#contributions)
+  -[Licenses](#licenses)
+  -[Testing](#testing)
+  -[email](#email)
 
   ## Description
 
