@@ -44,5 +44,6 @@ Finding delicious, greasy/nutritious food for hangovers.
 ![badge](https://img.shields.io/badge/license-undefined-important)
 
 ## Contact
-Contact me : <a href="mailto:cody.mccray87@gmail.com">cody.mccray87@gmail.com</a>"
+Contact me : <a href="mailto:cody.mccray87@gmail.com">cody.mccray87@gmail.com</a>
+<br/>
 Github : <a href="https://github.com/cmccray87">cmccray87</a>
