@@ -1,19 +1,21 @@
 
   # Hunger Mate
+  
   ![badge](https://img.shields.io/github/languages/top/cmccray87/undefined)
   <br> 
   ![badge](https://img.shields.io/github/languages/count/cmccray87/undefined)
   <br>
+  
   ## Table of Contents
 
-  [Description](#description)
-  [Installation](#installation)
-  [useCase](#useCase)
-  [Features](#features)
-  [Contributions](#contributions)
-  [Licenses](#licenses)
-  [Testing](#testing)
-  [email](#email)
+  - [Description](#description)
+  - [Installation](#installation)
+  - [useCase](#useCase)
+  - [Features](#features)
+  - [Contributions](#contributions)
+  - [Licenses](#licenses)
+  - [Testing](#testing)
+  - [email](#email)
 
   ## Description
 
