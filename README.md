@@ -21,6 +21,11 @@ Hunger mate is your hangover buddy.<br/>
 
 <img src="./assets/images/wireframe.PNG">
 
+## User Story
+AS A hungover individual<br>
+I WANT a quick and easy way to order food combos<br>
+SO THAT I can be on the mend for another night of fun!
+
 ## Installation
 undefined
 <br>
