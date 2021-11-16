@@ -20,7 +20,7 @@
 ## Description
 
 Hunger mate is your hangover buddy.
-<br>
+<br/>
 <img src="./assets/images/wireframe.PNG">
 
 ## Installation
