@@ -26,6 +26,17 @@ AS A hungover individual<br>
 I WANT a quick and easy way to order food combos<br>
 SO THAT I can be on the mend for another night of fun!
 
+## Acceptance Criteria
+GIVEN a single-page application that accepts user input
+WHEN I go to the menu
+THEN I am able to select a delicious combo
+WHEN I select my combo
+THEN I need to enter my contact information
+WHEN I enter my contact information in the provided fields
+THEN I need to enter my secure payment information
+WHEN I enter my payment information
+THEN my order is ready to be submitted to be ordered
+
 ## Installation
 undefined
 <br>
