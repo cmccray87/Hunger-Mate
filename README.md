@@ -19,8 +19,8 @@
 
 ## Description
 
-Hunger mate is your hangover buddy.
-<br/>
+Hunger mate is your hangover buddy.<br/>
+
 <img src="./assets/images/wireframe.PNG">
 
 ## Installation
