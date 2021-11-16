@@ -10,12 +10,10 @@
 
 - [Description](#description)
 - [Installation](#installation)
-- [useCase](#useCase)
 - [Features](#features)
 - [Contributions](#contributions)
 - [Licenses](#licenses)
-- [Testing](#testing)
-- [email](#email)
+- [Contact](#contact)
 
 ## Description
 
