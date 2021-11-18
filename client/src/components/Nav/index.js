@@ -11,14 +11,14 @@ function Nav() {
   return (
     <header className="flex-row px-1">
       <h2>
-        <a data-testid="link" href="/">
+        <a href="/">
           Hunger-Mates
         </a>
       </h2>
       <nav>
         <ul className="flex-row">
           <li className="mx-2">
-            <a data-testid="about" href="#about" onClick={() => setContactSelected(false)}>
+            <a href="#about" onClick={() => setContactSelected(false)}>
               About me
             </a>
           </li>
