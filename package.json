@@ -1,0 +1,25 @@
+{
+  "name": "hunger-mate",
+  "version": "1.0.0",
+  "description": "When someone says BEER ME, you hand them a beer. When they say FEED ME, hand them Hunger Mate!",
+  "main": "server.js",
+  "dependencies": {
+    "mongoose": "^6.0.13",
+    "express": "^4.17.1"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/cmccray87/Hunger-Mate.git"
+  },
+  "author": "cmccray87",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/cmccray87/Hunger-Mate/issues"
+  },
+  "homepage": "https://github.com/cmccray87/Hunger-Mate#readme"
+}
