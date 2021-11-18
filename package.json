@@ -3,15 +3,6 @@
   "version": "1.0.0",
   "description": "When someone says BEER ME, you hand them a beer. When they say FEED ME, hand them Hunger Mate!",
   "main": "server.js",
-  "dependencies": {
-    "mongoose": "^6.0.13",
-    "express": "^4.17.1"
-  },
-  "devDependencies": {},
-  "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1",
-    "start": "node server.js"
-  },
   "repository": {
     "type": "git",
     "url": "git+https://github.com/cmccray87/Hunger-Mate.git"
@@ -21,11 +12,11 @@
   "bugs": {
     "url": "https://github.com/cmccray87/Hunger-Mate/issues"
   },
-  "homepage": "https://github.com/cmccray87/Hunger-Mate#readme"
-  "name": "hangover-mate",
-  "version": "0.1.0",
+  "homepage": "https://github.com/cmccray87/Hunger-Mate#readme",
   "private": true,
+  "devDependencies": {},
   "dependencies": {
+    "mongoose": "^6.0.13",
     "@testing-library/jest-dom": "^5.15.0",
     "@testing-library/react": "^11.2.7",
     "@testing-library/user-event": "^12.8.3",
@@ -38,6 +29,7 @@
     "web-vitals": "^1.1.2"
   },
   "scripts": {
+    "run": "node server.js",
     "start": "react-scripts start",
     "build": "react-scripts build",
     "test": "react-scripts test",
