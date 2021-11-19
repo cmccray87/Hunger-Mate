@@ -36,3 +36,13 @@
     transform: rotate(360deg);
   }
 }
+
+* {
+  background-color: purple;
+  color: purple;
+  font-size: 100px;
+}
+
+header {
+  background-color: yellow;
+}

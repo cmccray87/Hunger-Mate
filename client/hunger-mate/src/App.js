@@ -6,7 +6,7 @@ function App() {
   return (
    <>
    <header>
-     Hunger Mate
+     Hunger Mates
    </header>
    </>
   );
