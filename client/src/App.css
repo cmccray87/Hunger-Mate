@@ -40,10 +40,12 @@
 header {
   font-size: 100px;
   text-align: center;
+  color: skyblue;
 }
 
 h1 {
   text-align: center;
+  color: skyblue;
 }
 
 button {
@@ -52,4 +54,11 @@ button {
 
 input {
   margin-left: 600px ;
+}
+
+body {
+  background-image: url("food.jpg");
+  background-repeat: no-repeat, repeat;
+  background-color: #cccccc;
+  background-size: 2000px 1000px;
 }
