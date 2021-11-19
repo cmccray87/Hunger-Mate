@@ -49,3 +49,7 @@ h1 {
 button {
   text-align: center;
 }
+
+input {
+  margin-left: 600px ;
+}
