@@ -4,9 +4,9 @@ import './App.css';
 function App() {
   return (
     <div>
-      <h1>Hunger Mate</h1>
-      <h2>Address</h2>
-      <h3>Payout</h3>
+      <header>Hunger Mate</header>
+      <h1>Address</h1>
+      <h1>Payout</h1>
     </div>
   );
 }
