@@ -1,17 +1,31 @@
 import React, { useState } from 'react';
 import { validateEmail } from '../../utils/helpers';
+import Auth from '../../utils/auth';
 
 function Signup() {
     const [formState, setFormState] = useState({
       name: '',
       email: '',
     });
+    //user auth
+    const [addUser] = useMutation(ADD_USER);
   
     const [errorMessage, setErrorMessage] = useState('');
     const { name, email } = formState;
   
     const handleSubmit = (e) => {
       e.preventDefault();
+      // user auth
+      const mutationResponse = addUser({
+        variables: {
+          email: formState.email,
+          password: formState.password,
+          firstName: formState.firstName,
+          lastName: formState.lastName,
+        },
+      });
+      const token = mutationResponse.data.addUser.token;
+      Auth.login(token);
       if (!errorMessage) {
         console.log('Submit Form', formState);
       }

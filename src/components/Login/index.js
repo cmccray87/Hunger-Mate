@@ -1,17 +1,30 @@
 import React, { useState } from 'react';
 import { validateEmail } from '../../utils/helpers';
+import Auth from '../../utils/auth';
 
 function Login() {
     const [formState, setFormState] = useState({
       name: '',
       email: '',
     });
+    //user auth
+    const [login, { error }] = useMutation(LOGIN);
   
     const [errorMessage, setErrorMessage] = useState('');
     const { name, email } = formState;
   
     const handleSubmit = (e) => {
       e.preventDefault();
+      // user auth
+      try {
+        const mutationResponse = login({
+          variables: { email: formState.email, password: formState.password },
+        });
+        const token = mutationResponse.data.login.token;
+        Auth.login(token);
+      } catch (e) {
+        console.log(e);
+      }
       if (!errorMessage) {
         console.log('Submit Form', formState);
       }
