@@ -5,7 +5,7 @@ import LoginForm from './components/LoginForm';
 
 function App() {
   const adminUser = {
-    email: "apples@orange.com",
+    email: "olugbengaojo@gmail.com",
     password:"forgot"
   }
 
