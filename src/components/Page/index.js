@@ -2,6 +2,8 @@ import React from 'react';
 import PageContent from '../PageContent';
 import About from '../About';
 import Contact from '../Contact';
+import Login from '../Login';
+import Signup from '../Signup';
 import { capitalizeFirstLetter } from '../../utils/helpers';
 
 function Page({ currentPage }) {
@@ -12,8 +14,10 @@ function Page({ currentPage }) {
         return <About />;
       case 'order':
         return <Contact />;
-      case 'sign up/log in':
-        return <Contact />;
+      case 'sign up':
+        return <Signup />;
+      case 'log in':
+        return <Login />;
       default:
         return <About />;
     }
