@@ -9,7 +9,7 @@ function App() {
       name: "about us"
     },
     { name: "order" },
-    { name: "sign up" },
+    { name: "sign up/log in" },
   ]);
 
   const [currentPage, setCurrentPage] = useState(pages[0]);

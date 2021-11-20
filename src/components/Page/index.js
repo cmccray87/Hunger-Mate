@@ -12,7 +12,7 @@ function Page({ currentPage }) {
         return <About />;
       case 'order':
         return <Contact />;
-      case 'sign up':
+      case 'sign up/log in':
         return <Contact />;
       default:
         return <About />;
