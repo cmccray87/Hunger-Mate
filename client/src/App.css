@@ -59,6 +59,7 @@ input {
 body {
   background-image: url("food.jpg");
   background-repeat: no-repeat, repeat;
-  background-color: #cccccc;
+  background-color: grey;
+  background-blend-mode: darken;
   background-size: 2000px 1000px;
 }
