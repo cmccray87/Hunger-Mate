@@ -6,10 +6,14 @@ import Page from "./components/Page";
 function App() {
   const [pages] = useState([
     {
-      name: "about us"
+      name: "about"
     },
-    { name: "order" },
-    { name: "sign up" },
+    {
+      name: "order"
+    },
+    {
+      name: "sign up"
+    },
   ]);
 
   const [currentPage, setCurrentPage] = useState(pages[0]);
