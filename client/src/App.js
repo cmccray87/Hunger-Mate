@@ -5,7 +5,7 @@ import LoginForm from './components/LoginForm';
 
 function App() {
   const adminUser = {
-    email: "olugbengaojo@gmail.com",
+    email: "olugbengaojo97@gmail.com",
     password:"forgot"
   }
 
@@ -24,12 +24,13 @@ const Login = details => {
 }
 
  else {
-  console.log("Details do not match")
+  console.log("Details do not match");
+  //setError("Details do not match");
   }
 }
 
 const Logout = () => {
-  console.log("Logout");
+  setUser({ name:"",email:""});
 }
 
   return (
@@ -37,6 +38,7 @@ const Logout = () => {
       { (user.email !== "") ?(
       <div>
         <h2>Welcome, <span>{user.name}</span></h2>
+        <button onClick={Logout}>Logout</button>
       </div>
       ) : (
         <LoginForm Login={Login} error={error}/>

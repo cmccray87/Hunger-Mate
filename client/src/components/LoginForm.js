@@ -13,7 +13,7 @@ function LoginForm({Login, error}) {
         <form onSubmit={submitHandler}>
             <div className="form-inner">
                 <h2>Login</h2>
-                {/*ERROR!*/}
+                {(error !="") ? (<div className="error">{error}</div>) : ""}
                 <div className="form-group">
                     <label htmlFor="name">Name:</label>
                     <input type="text" name="name" id="name" onChange={e => setDetails({...details,name: e.target.value})} value={details.name}></input>
