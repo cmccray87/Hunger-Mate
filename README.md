@@ -61,3 +61,10 @@ Finding delicious, greasy/nutritious food for hangovers.
 Email : <a href="mailto:cody.mccray87@gmail.com">cody.mccray87@gmail.com</a>
 <br/>
 Github : <a href="https://github.com/cmccray87">cmccray87</a>
+
+## Image Credits
+- Pho photo by <a href="https://unsplash.com/@markuswinkler?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Markus Winkler</a> on <a href="https://unsplash.com/s/photos/pho?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Unsplash</a>
+- Pizza photo by <a href="https://unsplash.com/@jordannix?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Jordan Nix</a> on <a href="https://unsplash.com/s/photos/pizza?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Unsplash</a>
+- Burger photo by <a href="https://unsplash.com/@kimzifi?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Kimia Zarifi</a> on <a href="https://unsplash.com/s/photos/combo?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Unsplash</a>
+- Tacos photo by <a href="https://unsplash.com/@montatip?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">montatip lilitsanong</a> on <a href="https://unsplash.com/s/photos/tacos?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Unsplash</a>
+- Sushi photo by <a href="https://unsplash.com/@shootdelicious?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Eiliv-Sonas Aceron</a> on <a href="https://unsplash.com/s/photos/tacos?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Unsplash</a>
