@@ -22,12 +22,12 @@ const Logout = () => {
 
   return (
     <div>
-      { (user.email != "") ?(
+      { (user.email !== "") ?(
       <div>
         <h2>Welcome, <span>{user.name}</span></h2>
       </div>
       ) : (
-        <LoginForm/>
+        <LoginForm Login={Login} error={error}/>
       )}
     </div>
   );
