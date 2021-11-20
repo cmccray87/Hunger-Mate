@@ -14,6 +14,9 @@ function App() {
     {
       name: "sign up"
     },
+    {
+      name: "log in"
+    }
   ]);
 
   const [currentPage, setCurrentPage] = useState(pages[0]);
