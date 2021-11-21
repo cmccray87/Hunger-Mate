@@ -51,6 +51,9 @@ const Logout = () => {
             <input></input>
         </div>
 
+        <button>Payment Method</button>
+      
+
         <button onClick={Logout}>Logout</button>
       </div>
       ) : (
