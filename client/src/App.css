@@ -63,3 +63,17 @@ body {
   background-blend-mode: darken;
   background-size: 2000px 1000px;
 }
+
+h2 {
+  color:lightblue;
+}
+
+label {
+  color:lightblue;
+}
+
+input {
+  margin-right: 1000px;
+  float: right;
+  padding-right: 100px;
+}

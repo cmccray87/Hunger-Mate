@@ -37,6 +37,7 @@ const Logout = () => {
     <div>
       { (user.email !== "") ?(
       <div>
+        <header>Hunger Mates</header>
         <h2>Welcome, <span>{user.name}</span></h2>
         <button onClick={Logout}>Logout</button>
       </div>
