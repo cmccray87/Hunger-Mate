@@ -45,6 +45,12 @@ const Logout = () => {
           <img src={sandwich} alt="Breakfast Sandwich" height="100px" width="100px" />
           <img src={gatorade} alt="Drink" height="100px" width="100px" />
         </button>
+
+        <div className="form-group">
+            <label htmlFor="name">Address:</label>
+            <input></input>
+        </div>
+
         <button onClick={Logout}>Logout</button>
       </div>
       ) : (
