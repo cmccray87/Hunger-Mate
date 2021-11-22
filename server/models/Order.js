@@ -1,5 +1,5 @@
 const { Schema, model } = require('mongoose');
-// const reactionSchema = require('./Reaction');
+// const reactionSchema = require('./Review');
 const dateFormat = require('../utils/dateFormat');
 
 const orderSchema = new Schema(
@@ -16,16 +16,16 @@ const orderSchema = new Schema(
         type: String,
         required: true
     },
-}
-// {
-//         toJSON: {
-//         getters: true
-//       }
-//     }
+  },
+{
+        toJSON: {
+        getters: true
+      }
+    }
   );
   
-//   orderSchema.virtual('reactionCount').get(function() {
-//     return this.reactions.length;
+//   orderSchema.virtual('reviewCount').get(function() {
+//     return this.reviews.length;
 //   });
   
 // create the combo order using the ComboSchema
