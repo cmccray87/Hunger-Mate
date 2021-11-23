@@ -4,9 +4,6 @@ function About() {
   return (
     <section className="my-5">
       <div className="my-2">
-        {/* <div className="profile-img my-5">
-        <i className="fas fa-user-circle" style={{ fontSize: "96px" }}></i>
-        </div> */}
         <p>
           For some it may be breakfast burritos, for others it might be tacos, and for very few it may be a banana.
           You are hungover, and we are eager to help; let us help you. Order your most desired food and beverage combo
