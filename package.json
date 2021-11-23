@@ -18,7 +18,7 @@
   },
   "homepage": "https://github.com/cmccray87/Hunger-Mate#readme",
 >>>>>>> 919e8d6adb913f0ade205754e355d3a124ee2d33
-  "private": true,
+  "private": false,
   "dependencies": {
     "react": "^16.13.1",
     "react-dom": "^16.13.1",
