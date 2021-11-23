@@ -1,8 +1,12 @@
 import React, { useState } from 'react';
-
+import { Container } from 'react-bootstrap';
+import { Row } from 'react-bootstrap';
+import { Col } from 'react-bootstrap';
+import { Image } from 'react-bootstrap';
 import { validateEmail } from '../../utils/helpers';
 
-function Contact() {
+
+function Order() {
   const [formState, setFormState] = useState({
     name: '',
     email: '',
@@ -42,6 +46,7 @@ function Contact() {
 
   return (
     <section>
+      
       <form id="contact-form" onSubmit={handleSubmit}>
         <div>
           <label htmlFor="name">Name:</label>
@@ -77,8 +82,35 @@ function Contact() {
         )}
         <button type="submit">Submit</button>
       </form>
+      
+
+      <Container>
+  <Row>
+    <Col md={6} md={4}>
+      <Image src={ require("../../assets/images/burger.jpg") } height={200} width={200} />
+      
+    </Col>
+    <Col md={6} md={4}>
+      <Image src={ require("../../assets/images/pho.jpg") } height={200} width={200}  />
+    </Col>
+    <Col md={6} md={4}>
+    <Image src={ require("../../assets/images/tacos.jpg") } height={200} width={200}  />
+    </Col>
+    <Col md={6} md={4}>
+    <Image src={ require("../../assets/images/sushi.jpg") } height={200} width={200}  />
+    </Col>
+    <Col md={6} md={4}>
+    <Image src={ require("../../assets/images/pizza.jpg") } height={200} width={200}  />
+    </Col>
+  </Row>
+</Container>
+
+
+
+
+      
     </section>
   );
 }
 
-export default Contact;
+export default Order;

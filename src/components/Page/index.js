@@ -1,7 +1,7 @@
 import React from 'react';
 import PageContent from '../PageContent';
 import About from '../About';
-import Contact from '../Contact';
+import Order from '../Order';
 import Login from '../Login';
 import Signup from '../Signup';
 import { capitalizeFirstLetter } from '../../utils/helpers';
@@ -13,7 +13,7 @@ function Page({ currentPage }) {
       case 'about':
         return <About />;
       case 'order':
-        return <Contact />;
+        return <Order />;
       case 'sign up':
         return <Signup />;
       case 'log in':
