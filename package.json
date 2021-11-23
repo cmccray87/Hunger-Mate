@@ -1,6 +1,23 @@
 {
+<<<<<<< HEAD
   "name": "hungermate",
   "version": "0.1.0",
+=======
+  "name": "hunger-mate",
+  "version": "1.0.0",
+  "description": "When someone says BEER ME, you hand them a beer. When they say FEED ME, hand them Hunger Mate!",
+  "main": "server.js",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/cmccray87/Hunger-Mate.git"
+  },
+  "author": "cmccray87",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/cmccray87/Hunger-Mate/issues"
+  },
+  "homepage": "https://github.com/cmccray87/Hunger-Mate#readme",
+>>>>>>> 919e8d6adb913f0ade205754e355d3a124ee2d33
   "private": true,
   "dependencies": {
     "react": "^16.13.1",
