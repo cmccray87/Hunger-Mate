@@ -88,7 +88,7 @@ function Order() {
     
 
     
-    <Col md={6} md={4}>
+    <Col md={6} >
       <Image src={ require("../../assets/images/burger.jpg") } height={200} width={200} />
       
       <Image src={ require("../../assets/images/pho.jpg") } height={200} width={200}  />
