@@ -46,7 +46,10 @@ function Order() {
 
   return (
     <section>
-      
+
+<Container>
+  <Row>
+ 
       <form id="contact-form" onSubmit={handleSubmit}>
         <div>
           <label htmlFor="name">Name:</label>
@@ -82,24 +85,23 @@ function Order() {
         )}
         <button type="submit">Submit</button>
       </form>
-      
+    
 
-      <Container>
-  <Row>
-    <Col md={6} md={4}>
+    
+    <Col lg={6} md={4}>
       <Image src={ require("../../assets/images/burger.jpg") } height={200} width={200} />
       
-    </Col>
-    <Col md={6} md={4}>
+    
+    {/* <Col md={6} md={4}> */}
       <Image src={ require("../../assets/images/pho.jpg") } height={200} width={200}  />
-    </Col>
-    <Col md={6} md={4}>
+    {/* </Col> */}
+    {/* <Col md={6} md={4}> */}
     <Image src={ require("../../assets/images/tacos.jpg") } height={200} width={200}  />
-    </Col>
-    <Col md={6} md={4}>
+    {/* </Col> */}
+    {/* <Col md={6} md={4}> */}
     <Image src={ require("../../assets/images/sushi.jpg") } height={200} width={200}  />
-    </Col>
-    <Col md={6} md={4}>
+    {/* </Col> */}
+    {/* <Col md={6} md={4}> */}
     <Image src={ require("../../assets/images/pizza.jpg") } height={200} width={200}  />
     </Col>
   </Row>
