@@ -1,5 +1,5 @@
 {
-  "name": "mern-server",
+  "name": "hunger-mate-server",
   "version": "1.0.0",
   "description": "",
   "main": "server.js",
@@ -12,8 +12,7 @@
   "author": "",
   "license": "ISC",
   "dependencies": {
-    "apollo-server": "^3.5.0",
-    "apollo-server-express": "^2.25.3",
+    "apollo-server-express": "^2.12.0",
     "bcrypt": "^4.0.1",
     "express": "^4.17.1",
     "faker": "^4.1.0",
