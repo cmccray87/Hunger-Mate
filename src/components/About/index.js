@@ -17,7 +17,7 @@ function About() {
       <Image src={ require("../../assets/images/delivery.jpg") } />
       </div>
       <div>
-        <h2>Meet Our Drivers, Riders &amp; Flyers</h2>
+        <h2>Meet Our Drivers</h2>
         <p>
           <ul>
             <li>David <span role="img" aria-label="car emoji">&#128663;</span></li>

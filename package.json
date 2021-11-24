@@ -3,6 +3,7 @@
   "version": "1.0.0",
   "description": "When someone says BEER ME, you hand them a beer. When they say FEED ME, hand them Hunger Mate!",
   "main": "server.js",
+  "proxy": "http://localhost:3001",
   "repository": {
     "type": "git",
     "url": "git+https://github.com/cmccray87/Hunger-Mate.git"
