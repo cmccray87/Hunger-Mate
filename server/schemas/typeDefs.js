@@ -17,11 +17,6 @@ const typeDefs = gql`
     username: String
   }
 
-  type Auth {
-    token: ID!
-    user: User
-  }
-
   type Query {
     me: User
     users: [User]
@@ -30,10 +25,15 @@ const typeDefs = gql`
     order(_id: ID!): Order
   }
 
+  type Auth {
+    token: ID!
+    user: User
+  }
+
   type Mutation {
     login(email: String!, password: String!): Auth
     addUser(username: String!, email: String!, password: String!): Auth
-    addOrder(thoughtText: String!): Order
+    addOrder(orderText: String!): Order
   }
 `;
 

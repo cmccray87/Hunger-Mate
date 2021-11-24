@@ -1,5 +1,4 @@
 const { Schema, model } = require('mongoose');
-// const reactionSchema = require('./Review');
 const dateFormat = require('../utils/dateFormat');
 
 const orderSchema = new Schema(
@@ -23,11 +22,7 @@ const orderSchema = new Schema(
       }
     }
   );
-  
-//   orderSchema.virtual('reviewCount').get(function() {
-//     return this.reviews.length;
-//   });
-  
+   
 // create the combo order using the ComboSchema
 const Order = model('Order', orderSchema);
   
