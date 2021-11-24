@@ -9,21 +9,30 @@ function About() {
         Rough night? You’ve come to the right place to start your recovery!
         </p>
         <p>
-        When someone says, “Beer me!”
-        you hand them a beer. When someone says, “Feed me!” you hand them Hunger-Mate!
-        Our options are simple with a one-click food and drink combo. Sign up today to get your order on the way!
+        When someone says, “Beer me!” you hand them a beer. When someone says, “Feed me!” you hand them Hunger-Mate!
         </p>
         <p>
-          For some it may be breakfast burritos, for others it might be tacos, and for very few it may be a banana.
-          You are hungover, and we are eager to help; let us help you! Order your most desired food and beverage combo
-          right here and we'll deliver it to you in just minutes! 
+        Our options are simple with a one-click food and drink combo. Sign up today to get your order on the way!
         </p>
-        
       <Image src={ require("../../assets/images/delivery.jpg") } />
-     
-    
-        
-       
+      </div>
+      <div>
+        <h2>Meet Our Drivers, Riders &amp; Flyers</h2>
+        <p>
+          <ul>
+            <li>David &#128663;</li>
+            <li>Micah &#128664;</li>
+            <li>Missy &#128641;</li>
+            <li>Gbenga &#128757;</li>
+            <li>Cody &#128692;</li>
+          </ul>
+        </p>
+      </div>
+      <div>
+        <h2>Contact Us</h2>
+        <p>
+        Text or Call 1(800)FEEDMEE
+        </p>
       </div>
     </section>
   );
