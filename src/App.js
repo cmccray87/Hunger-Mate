@@ -1,7 +1,17 @@
+import { ApolloProvider, ApolloClient, InMemoryCache, createHttpLink } from '@apollo/client';
 import React, { useState } from "react";
 import Header from "./components/Header";
 import Nav from "./components/Nav";
 import Page from "./components/Page";
+
+const httpLink = createHttpLink({
+  uri: 'http://localhost:3001/graphql',
+});
+
+const client = new ApolloClient({
+  link: httpLink,
+  cache: new InMemoryCache(),
+});
 
 function App() {
   const [pages] = useState([
