@@ -86,20 +86,20 @@ function Order() {
 
       <Container>
   <Row>
-    <Col md={6} md={4}>
+    <Col md={6}>
       <Image src={ require("../../assets/images/burger.jpg") } height={200} width={200} />
       
     </Col>
-    <Col md={6} md={4}>
+    <Col md={6}>
       <Image src={ require("../../assets/images/pho.jpg") } height={200} width={200}  />
     </Col>
-    <Col md={6} md={4}>
+    <Col md={6}>
     <Image src={ require("../../assets/images/tacos.jpg") } height={200} width={200}  />
     </Col>
-    <Col md={6} md={4}>
+    <Col md={6}>
     <Image src={ require("../../assets/images/sushi.jpg") } height={200} width={200}  />
     </Col>
-    <Col md={6} md={4}>
+    <Col md={6}>
     <Image src={ require("../../assets/images/pizza.jpg") } height={200} width={200}  />
     </Col>
   </Row>
