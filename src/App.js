@@ -3,6 +3,7 @@ import React, { useState } from "react";
 import Header from "./components/Header";
 import Nav from "./components/Nav";
 import Page from "./components/Page";
+import Home from './pages/Home';
 
 const httpLink = createHttpLink({
   uri: 'http://localhost:3001/graphql',
@@ -31,20 +32,25 @@ function App() {
 
   const [currentPage, setCurrentPage] = useState(pages[0]);
 
-  return (
-    <div>
-      <Header>
-        <Nav
-          pages={pages}
-          setCurrentPage={setCurrentPage}
-          currentPage={currentPage}
-        ></Nav>
-      </Header>
-      <main>
-        <Page currentPage={currentPage}></Page>
-      </main>
-    </div>
-  );
-}
+    return (
+      <ApolloProvider client={client}>
+        <div className="flex-column justify-flex-start min-100-vh">
+          <Header>
+            <Nav
+              pages={pages}
+              setCurrentPage={setCurrentPage}
+              currentPage={currentPage}
+            ></Nav>
+          </Header>
+          <div className="container">
+            <main>
+              <Page currentPage={currentPage}></Page>
+            </main>
+          <Home />
+          </div>
+        </div>
+      </ApolloProvider>
+    );
+  };
 
 export default App;
