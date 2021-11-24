@@ -20,18 +20,18 @@ function About() {
         <h2>Meet Our Drivers, Riders &amp; Flyers</h2>
         <p>
           <ul>
-            <li>David &#128663;</li>
-            <li>Micah &#128664;</li>
-            <li>Missy &#128641;</li>
-            <li>Gbenga &#128757;</li>
-            <li>Cody &#128692;</li>
+            <li>David <span role="img" aria-label="car emoji">&#128663;</span></li>
+            <li>Micah <span role="img" aria-label="car emoji">&#128664;</span></li>
+            <li>Missy <span role="img" aria-label="car emoji">&#128641;</span></li>
+            <li>Gbenga <span role="img" aria-label="car emoji">&#128757;</span></li>
+            <li>Cody <span role="img" aria-label="car emoji">&#128692;</span></li>
           </ul>
         </p>
       </div>
       <div>
         <h2>Contact Us</h2>
         <p>
-        Text or Call 1(800)FEEDMEE
+        Text or Call 1(800)HNGRMTE
         </p>
       </div>
     </section>
